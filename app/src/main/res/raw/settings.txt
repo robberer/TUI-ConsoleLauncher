@@ -5,9 +5,9 @@ settingsVersion=4.4
 
 // skin
 deviceColor=#ffff9800
-inputColor=#ff00ff00
-outputColor=#ffffffff
-backgroundColor=#ff002b36
+inputColor=#ffa7bcfa
+outputColor=#ffa7bcfa
+backgroundColor=#ff313079
 useSystemFont=false
 fontSize=18
 ramColor=#fff44336
@@ -24,8 +24,8 @@ suggestionTextColor=#ff000000
 transparentSuggestions=false
 multicolorSuggestions=true
 executeOnSuggestionClick=true
-aliasSuggestionBg=#ffFF5722
-appSuggestionBg=#ff00897B
+aliasSuggestionBg=#ffa7bcfa
+appSuggestionBg=#ffa7bcfa
 commandSuggestionsBg=#ff76FF03
 songSuggestionBg=#ffEEFF41
 contactSuggestionBg=#ff64FFDA
@@ -35,8 +35,8 @@ defaultSuggestionBg=#ffFFFFFF
 // pre-load
 useSystemWallpaper=false
 fullscreen=false
-keepAliveWithNotification=true
-openKeyboardOnStart=true
+keepAliveWithNotification=false
+openKeyboardOnStart=false
 
 // music
 playRandom=true
