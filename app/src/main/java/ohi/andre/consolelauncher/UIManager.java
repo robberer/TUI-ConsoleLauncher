@@ -295,6 +295,18 @@ public class UIManager implements OnTouchListener {
             deviceInfo = null;
         }
 
+        TextView pid = (TextView) rootView.findViewById(R.id.pid_tv);
+        boolean showPid = Boolean.parseBoolean(prefsMgr.getValue(PreferencesManager.SHOWPID));
+        if (showPid) {
+            pid.setTextColor(skinManager.getRamColor());
+            pid.setTextSize(skinManager.getRamSize());
+            pid.setTypeface(skinManager.getGlobalTypeface());
+            pid.setText("PID: " + Tuils.getPID());
+        } else {
+            pid.setVisibility(View.GONE);
+            pid = null;
+        }
+
         boolean inputBottom = Boolean.parseBoolean(prefsMgr.getValue(PreferencesManager.INPUTFIELD_BOTTOM));
         int layoutId = inputBottom ? R.layout.input_down_layout : R.layout.input_up_layout;
 

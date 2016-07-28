@@ -10,7 +10,7 @@ outputColor=#ffa7bcfa
 backgroundColor=#ff313079
 useSystemFont=false
 fontSize=18
-ramColor=#fff44336
+ramColor=#ff5b52
 inputFieldBottom=true
 username=edit_this_in_t-ui_folder
 showUsername=false
@@ -18,15 +18,16 @@ showSubmit=false
 deviceName=null
 showRam=true
 showDevice=false
+showPid=true
 
 // suggestions
-suggestionTextColor=#ff000000
-transparentSuggestions=false
-multicolorSuggestions=true
+suggestionTextColor=#ff313079
+transparentSuggestions=true
+multicolorSuggestions=false
 executeOnSuggestionClick=true
 aliasSuggestionBg=#ffa7bcfa
 appSuggestionBg=#ffa7bcfa
-commandSuggestionsBg=#ff76FF03
+commandSuggestionsBg=#ffa7bcfa
 songSuggestionBg=#ffEEFF41
 contactSuggestionBg=#ff64FFDA
 fileSuggestionBg=#ff03A9F4
@@ -36,7 +37,7 @@ defaultSuggestionBg=#ffFFFFFF
 useSystemWallpaper=false
 fullscreen=false
 keepAliveWithNotification=false
-openKeyboardOnStart=false
+openKeyboardOnStart=true
 
 // music
 playRandom=true

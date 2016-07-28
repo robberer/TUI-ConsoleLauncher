@@ -114,6 +114,12 @@ public class Tuils {
         return availableMegs + " MB";
     }
 
+    public static Integer getPID() {
+        int pid = android.os.Process.myPid();
+
+        return pid;
+    }
+
     public static List<String> getClassesInPackage(String packageName, Context c)
             throws IOException {
         List<String> classes = new ArrayList<>();

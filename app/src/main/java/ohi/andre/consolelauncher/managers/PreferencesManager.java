@@ -33,6 +33,7 @@ public class PreferencesManager {
     public static final String DEVICENAME = "deviceName";
     public static final String SHOWRAM = "showRam";
     public static final String SHOWDEVICE = "showDevice";
+    public static final String SHOWPID = "showPid";
 
     public static final String SUGGESTIONTEXT_COLOR = "suggestionTextColor";
     public static final String TRANSPARENT_SUGGESTIONS = "transparentSuggestions";

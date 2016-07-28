@@ -17,6 +17,7 @@
         android:layout_weight="7"
 
         android:paddingTop="@dimen/zero_padding"
+        android:paddingBottom="@dimen/zero_padding"
 
         android:background="@null"
         android:imeOptions="actionGo|flagNoFullscreen"
