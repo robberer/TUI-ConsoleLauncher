@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseThemeLight" parent="@android:style/Theme.NoTitleBar">
+    </style>
+
+    <style name="BaseThemeDark" parent="@android:style/Theme.NoTitleBar">
+    </style>
+
+    <style name="AppThemeLight" parent="BaseThemeLight">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorSecondary">#d3d3d3</item>
+        <item name="android:textColorTertiary">#d3d3d3</item>
+    </style>
+
+    <style name="AppThemeDark" parent="BaseThemeDark">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorSecondary">#7f7f7f</item>
+    </style>
+
+</resources>

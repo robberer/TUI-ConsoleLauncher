@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c64_light">#a7bcfa</color>
+    <color name="c64_medium">#3F51B5</color>
+    <color name="c64_dark">#303F9F</color>
+    <color name="c64_dark2">#313079</color>
+</resources>

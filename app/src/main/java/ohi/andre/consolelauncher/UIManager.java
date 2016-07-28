@@ -5,6 +5,7 @@ import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Handler;
@@ -470,6 +471,7 @@ public class UIManager implements OnTouchListener {
 
             @Override
             public boolean onDoubleTap(MotionEvent e) {
+                /*
                 boolean admin = policy.isAdminActive(component);
 
                 if (!admin)
@@ -477,6 +479,12 @@ public class UIManager implements OnTouchListener {
                             mContext.getString(R.string.adminrequest_label));
                 else
                     policy.lockNow();
+                    */
+                // @robo, instead of locking the screen on doubleTap, open the phone app
+                Intent phoneIntent = new Intent(Intent.ACTION_RUN);
+                phoneIntent.setClassName("com.bytestemplar.tonedef", "com.bytestemplar.tonedef.DTMFActivity");
+                phoneIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(phoneIntent);
 
                 return true;
             }

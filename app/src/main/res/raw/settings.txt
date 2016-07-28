@@ -7,17 +7,17 @@ settingsVersion=4.4
 deviceColor=#ffff9800
 inputColor=#ff00ff00
 outputColor=#ffffffff
-backgroundColor=#ff000000
+backgroundColor=#ff002b36
 useSystemFont=false
-fontSize=15
+fontSize=18
 ramColor=#fff44336
 inputFieldBottom=true
 username=edit_this_in_t-ui_folder
-showUsername=true
-showSubmit=true
+showUsername=false
+showSubmit=false
 deviceName=null
 showRam=true
-showDevice=true
+showDevice=false
 
 // suggestions
 suggestionTextColor=#ff000000

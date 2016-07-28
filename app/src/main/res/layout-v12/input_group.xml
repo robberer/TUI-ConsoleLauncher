@@ -16,7 +16,7 @@
         android:layout_height="@dimen/input_height"
         android:layout_weight="7"
 
-        android:paddingTop="@dimen/input_padding"
+        android:paddingTop="@dimen/zero_padding"
 
         android:background="@null"
         android:imeOptions="actionGo|flagNoFullscreen"

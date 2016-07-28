@@ -3,7 +3,8 @@
     android:id="@+id/mainview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#a7bcfa">
 
     <include
         layout="@layout/about_device_view"

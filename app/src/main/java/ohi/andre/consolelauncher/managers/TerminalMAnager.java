@@ -40,7 +40,7 @@ limitations under the License.*/
 
 public class TerminalManager {
 
-    private final CharSequence PREFIX = ">>";
+    private final CharSequence PREFIX = "# ";
 
     private final int SCROLL_DELAY = 200;
 
