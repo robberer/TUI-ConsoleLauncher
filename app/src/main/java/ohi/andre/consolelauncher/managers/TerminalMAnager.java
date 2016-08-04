@@ -9,6 +9,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.method.ScrollingMovementMethod;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -130,6 +131,9 @@ public class TerminalManager {
         if (input.length() == 0) {
             return false;
         }
+
+        Log.e("ROBO", "test");
+
         writeToView(PREFIX + input, INPUT);
 
         if (mInputListener != null) {

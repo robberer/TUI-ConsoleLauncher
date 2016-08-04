@@ -1,5 +1,7 @@
 package ohi.andre.consolelauncher.managers;
 
+import android.util.Log;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -111,6 +113,7 @@ public class SuggestionsManager {
 
         Collections.sort(suggestionList);
         Suggestion[] array = new Suggestion[suggestionList.size()];
+        Log.e("ROBO", "test6");
         return suggestionList.toArray(array);
     }
 

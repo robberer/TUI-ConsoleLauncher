@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -90,6 +91,17 @@ public class LauncherActivity extends Activity implements Reloadable {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //set up onCreate Sound
+        MediaPlayer onCreateSound = new MediaPlayer();
+
+        try {
+            onCreateSound.setDataSource("/sdcard/computer_activate.ogg");
+            onCreateSound.prepare();
+            onCreateSound.start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         DevicePolicyManager policy = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
         ComponentName component = new ComponentName(this, PolicyReceiver.class);
